@@ -66,7 +66,7 @@ export default function PostPreview({ post }: PostPreviewProps){
 export const getStaticPaths:GetStaticPaths = () => {
     return {
         paths: [
-            { params: { slug: 'utilizando-path-mapping-no-typescript'}}
+            // { params: { slug: 'utilizando-path-mapping-no-typescript'}}
         ],
         fallback: 'blocking'
     }
